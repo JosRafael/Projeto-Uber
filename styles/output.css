@@ -596,6 +596,10 @@ video {
   width: 100%;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -673,6 +677,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-city {
+  background-image: url('/src/assets/bg-city.png');
+}
+
 .bg-uber {
   background-image: url('/src/assets/bguber.png');
 }
@@ -683,6 +691,10 @@ video {
 
 .bg-left {
   background-position: left;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-no-repeat {
@@ -719,6 +731,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -727,9 +744,19 @@ video {
   text-align: center;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -787,6 +814,11 @@ video {
   .sm\:flex {
     display: flex;
   }
+
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -798,5 +830,17 @@ video {
   .md\:my-2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
